@@ -1,0 +1,111 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  color: #111;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #0051a2;
+}
+
+.results {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.classCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 0;
+  max-width: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s;
+}
+
+.classCard:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.classCard h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.classCard p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.homeLink {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.homeLink:hover {
+  text-decoration: underline;
+}
+
+.classLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.crnTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #222;
+}
+
+.viewDetailsButton {
+  background: #003262;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+}
+
+.viewDetailsButton:hover {
+  background: #002244;
+  color: #ffd700;
+} 

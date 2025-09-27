@@ -1,0 +1,4 @@
+# Ignore generated Prisma files
+src/generated/
+# Ignore build output
+.next/ 

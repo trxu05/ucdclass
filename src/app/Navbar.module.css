@@ -1,0 +1,40 @@
+.navbar {
+  width: 100%;
+  background: #003262;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.navContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navLink {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navLink:hover, .navLink:focus {
+  background: #ffd700;
+  color: #003262;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 1.2rem;
+  vertical-align: middle;
+} 
